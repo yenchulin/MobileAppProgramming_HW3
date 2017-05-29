@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "27EECA455DDDA1BD7625D1C1E35AE00ADF395079",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "C216F26A6F991BD26B14A4A10598DB7889FB1D96" : 9223372036854775807,
+    "27EECA455DDDA1BD7625D1C1E35AE00ADF395079" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "281626D1-06C7-478A-9C07-ECCD3E3AE1A5",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "C216F26A6F991BD26B14A4A10598DB7889FB1D96" : "..",
+    "27EECA455DDDA1BD7625D1C1E35AE00ADF395079" : "AirportList\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "AirportList",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "AirportList.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/yenchulin\/MobileAppProgramming_HW3.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "27EECA455DDDA1BD7625D1C1E35AE00ADF395079"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/yenchulin\/MobileAppProgramming_HW1.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C216F26A6F991BD26B14A4A10598DB7889FB1D96"
+    }
+  ]
+}

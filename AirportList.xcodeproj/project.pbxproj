@@ -7,18 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C461E6C01EDC64E7005F137F /* airports.plist in Resources */ = {isa = PBXBuildFile; fileRef = C461E6BF1EDC64E7005F137F /* airports.plist */; };
 		C48F40C01EDB472600C2D6D0 /* AirportTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48F40BF1EDB472600C2D6D0 /* AirportTableViewCell.swift */; };
 		C48F40C21EDC500500C2D6D0 /* AirportContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48F40C11EDC500500C2D6D0 /* AirportContentViewController.swift */; };
 		C4CBF4B51EDA927D00532539 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CBF4B41EDA927D00532539 /* AppDelegate.swift */; };
 		C4CBF4BA1EDA927D00532539 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4CBF4B81EDA927D00532539 /* Main.storyboard */; };
 		C4CBF4BC1EDA927D00532539 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4CBF4BB1EDA927D00532539 /* Assets.xcassets */; };
 		C4CBF4BF1EDA927D00532539 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4CBF4BD1EDA927D00532539 /* LaunchScreen.storyboard */; };
-		C4CBF4C71EDAEB9E00532539 /* airports.plist in Resources */ = {isa = PBXBuildFile; fileRef = C4CBF4C61EDAEB9E00532539 /* airports.plist */; };
 		C4CBF4C91EDAF34600532539 /* Airport.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CBF4C81EDAF34600532539 /* Airport.swift */; };
 		C4CBF4CB1EDB03A200532539 /* AirportTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CBF4CA1EDB03A200532539 /* AirportTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C461E6BF1EDC64E7005F137F /* airports.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = airports.plist; sourceTree = "<group>"; };
 		C48F40BF1EDB472600C2D6D0 /* AirportTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AirportTableViewCell.swift; sourceTree = "<group>"; };
 		C48F40C11EDC500500C2D6D0 /* AirportContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AirportContentViewController.swift; sourceTree = "<group>"; };
 		C4CBF4B11EDA927D00532539 /* AirportList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirportList.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -27,7 +28,6 @@
 		C4CBF4BB1EDA927D00532539 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C4CBF4BE1EDA927D00532539 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C4CBF4C01EDA927D00532539 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C4CBF4C61EDAEB9E00532539 /* airports.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = airports.plist; path = "../../../../../../../Desktop/Airports Data/airports.plist"; sourceTree = "<group>"; };
 		C4CBF4C81EDAF34600532539 /* Airport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Airport.swift; sourceTree = "<group>"; };
 		C4CBF4CA1EDB03A200532539 /* AirportTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AirportTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -62,7 +62,7 @@
 		C4CBF4B31EDA927D00532539 /* AirportList */ = {
 			isa = PBXGroup;
 			children = (
-				C4CBF4C61EDAEB9E00532539 /* airports.plist */,
+				C461E6BF1EDC64E7005F137F /* airports.plist */,
 				C4CBF4B41EDA927D00532539 /* AppDelegate.swift */,
 				C4CBF4C81EDAF34600532539 /* Airport.swift */,
 				C4CBF4B81EDA927D00532539 /* Main.storyboard */,
@@ -136,8 +136,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4CBF4C71EDAEB9E00532539 /* airports.plist in Resources */,
 				C4CBF4BF1EDA927D00532539 /* LaunchScreen.storyboard in Resources */,
+				C461E6C01EDC64E7005F137F /* airports.plist in Resources */,
 				C4CBF4BC1EDA927D00532539 /* Assets.xcassets in Resources */,
 				C4CBF4BA1EDA927D00532539 /* Main.storyboard in Resources */,
 			);
